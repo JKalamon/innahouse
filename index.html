@@ -81,6 +81,17 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
 
+			@media screen and (max-width: 768px){
+				.card{
+					flex-direction: column;
+					margin: 10px
+				}
+
+				.img-promo img{
+					display: none;
+				}
+			}
+
       .text-content {
         padding: 20px;
 				display: flex;
@@ -101,8 +112,9 @@
       }
       p {
         color: #fff;
+				font-size: 1.2rem;
         margin-bottom: 20px;
-				margin-top: 10px;
+				margin-top: 15px;
       }
       .social-links {
         margin-top: 20px;
