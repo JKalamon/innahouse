@@ -1,0 +1,20 @@
+{
+  "name": "innahouse",
+  "version": "0.0.1",
+  "description": "Static website for inna.house automatically deployed and hosted using Cloudflare",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build": "build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKalamon/innahouse.git"
+  },
+  "author": "Jakub Kalamon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKalamon/innahouse/issues"
+  },
+  "homepage": "https://github.com/JKalamon/innahouse#readme"
+}
